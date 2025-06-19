@@ -6,7 +6,7 @@ import { AlertsResponse, PointsResponse, ForecastResponse, ForecastPeriod } from
 
 // 创建 server instance
 const server = new McpServer({
-  name: "weather",
+  name: "mcp-server-weather",
   version: "1.0.0",
   capabilities: {
     resources: {},
